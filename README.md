@@ -1,8 +1,13 @@
-# React + Vite
+# KATA - Online Bookstore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Install node_modules: 
+    - In the command line run: npm i
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## To run the application: 
+    - create a .env file in the root of the project
+    - make sure you add the user to the DB by following the steps in the back-end README.md file
+    - After creating the user, then in the .env file: 
+    `VITE_API_USERNAME=yourusername
+    VITE_API_PASSWORD=yourpassword`
+    - in the command line: npm run dev
+    - navigate to http://localhost:3000/books and refresh by clicking the Fetch Books button
